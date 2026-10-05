@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Grand - Luxury Hotel & Resort Booking",
+  "description": "Bespoke luxury hotel booking experience allowing guests to browse premium suites, customize stays with bespoke enhancements, and process secure payments with instant confirmation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
