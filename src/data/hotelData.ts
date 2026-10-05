@@ -1,12 +1,18 @@
 import { Room, AddOnOption } from '../types/hotel';
 
-// Generated image assets
+// Bundled image assets for production
+import heroImg from '../assets/images/hero_hotel_resort_1791171988208.jpg';
+import oceanVillaImg from '../assets/images/room_ocean_villa_1791172002545.jpg';
+import penthouseImg from '../assets/images/room_penthouse_suite_1791172015112.jpg';
+import gardenSuiteImg from '../assets/images/room_deluxe_garden_1791172028699.jpg';
+import spaWellnessImg from '../assets/images/hotel_spa_wellness_1791172041162.jpg';
+
 export const IMAGES = {
-  hero: '/src/assets/images/hero_hotel_resort_1791171988208.jpg',
-  oceanVilla: '/src/assets/images/room_ocean_villa_1791172002545.jpg',
-  penthouse: '/src/assets/images/room_penthouse_suite_1791172015112.jpg',
-  gardenSuite: '/src/assets/images/room_deluxe_garden_1791172028699.jpg',
-  spaWellness: '/src/assets/images/hotel_spa_wellness_1791172041162.jpg',
+  hero: heroImg,
+  oceanVilla: oceanVillaImg,
+  penthouse: penthouseImg,
+  gardenSuite: gardenSuiteImg,
+  spaWellness: spaWellnessImg,
 };
 
 export const ROOMS_DATA: Room[] = [
